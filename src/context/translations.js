@@ -42,8 +42,8 @@ export const translations = {
                 ],
                 demoLink: "https://github.com/danistrix63/n8n_tikets/blob/main/DEMO.md",
                 technicalDocLabel: "Ver Guía Técnica",
-                thumbnail: "/src/assets/n8n-thumbnail.png",
-                screenshot: "/src/assets/n8n-workflow.png"
+                thumbnail: "/n8n-thumbnail.png",
+                screenshot: "/n8n-workflow.png"
             }
         },
         contact: {
@@ -110,8 +110,8 @@ export const translations = {
                 ],
                 demoLink: "https://github.com/danistrix63/n8n_tikets/blob/main/DEMO.md",
                 technicalDocLabel: "View Technical Guide",
-                thumbnail: "/src/assets/n8n-thumbnail.png",
-                screenshot: "/src/assets/n8n-workflow.png"
+                thumbnail: "/n8n-thumbnail.png",
+                screenshot: "/n8n-workflow.png"
             }
         },
         contact: {
