@@ -3,14 +3,11 @@ import { X, Github, ExternalLink, CheckCircle } from 'lucide-react';
 import './ProjectModal.css';
 
 const ProjectModal = ({ project, isOpen, onClose }) => {
-    if (!isOpen || !project) return null;
-
     useEffect(() => {
         const handleEsc = (e) => {
             if (e.key === 'Escape') onClose();
         };
 
-        // Prevent body scroll when modal is open
         if (isOpen) {
             document.body.style.overflow = 'hidden';
             window.addEventListener('keydown', handleEsc);
@@ -21,6 +18,8 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
             window.removeEventListener('keydown', handleEsc);
         };
     }, [isOpen, onClose]);
+
+    if (!isOpen || !project) return null;
 
     const handleBackdropClick = (e) => {
         if (e.target === e.currentTarget) {
