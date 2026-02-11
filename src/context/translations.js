@@ -7,13 +7,13 @@ export const translations = {
         },
         hero: {
             title: "Desarrollando Experiencias Digitales",
-            subtitle: "Soy Daniel Dans Cots, un desarrollador apasionado por crear aplicaciones web modernas y soluciones automatizadas.",
+            subtitle: "Soy Daniel un desarrollador apasionado por crear aplicaciones modernas y soluciones automatizadas.",
             viewWork: "Ver Proyectos",
             downloadCV: "Descargar CV",
         },
         about: {
             title: "Sobre Mí",
-            p1: "Soy un desarrollador dedicado con pasión por construir aplicaciones web eficientes, escalables y amigables. Mi trayectoria en tecnología ha sido impulsada por la curiosidad y el deseo de resolver problemas del mundo real a través del código.",
+            p1: "Soy un desarrollador dedicado con pasión por construir aplicaciones eficientes, escalables y amigables. Mi trayectoria en tecnología ha sido impulsada por la curiosidad y el deseo de resolver problemas del mundo real a través del código.",
             p2: "Cuento con una amplia experiencia tanto en Back-end como en Front-end, bases de datos y desarrollo de APIs. Además, me especializo en la automatización de procesos y optimización de flujos de trabajo, integrando también soluciones de Inteligencia Artificial (IA) en mis proyectos.",
         },
         projects: {
@@ -21,6 +21,26 @@ export const translations = {
             subtitle: "Estos son algunos de mis trabajos recientes.",
             viewDemo: "Ver Demo",
             viewCode: "Ver Código",
+            viewDetails: "Ver Detalles",
+            n8nProject: {
+                title: "Analizador de Tickets con IA y n8n",
+                shortDesc: "Automatización inteligente para procesar tickets, extraer datos con IA y organizar finanzas.",
+                fullDesc: "Sistema completamente automatizado desplegado en producción con Docker y SSL en VPS. El flujo de trabajo toma imágenes de tickets, utiliza IA para extraer datos clave (precio, IVA, proveedor) y almacena todo en MySQL y Excel. Incluye copias de seguridad automáticas del sistema completo.",
+                workflow: [
+                    "Subida de imagen del ticket/factura",
+                    "Análisis con IA (Visión) para extracción de datos",
+                    "Almacenamiento en base de datos MySQL (Docker)",
+                    "Generación y actualización de Excel/Google Sheets",
+                    "Clasificación automática en Google Drive por fecha",
+                    "Detección de duplicados y notificación de errores"
+                ],
+                features: [
+                    { title: "Infraestructura VPS", desc: "Desplegado en VPS con Docker y Let's Encrypt SSL." },
+                    { title: "Seguridad y Backups", desc: "Certificados SSL automáticos y copias de seguridad completas (.tar.gz)." },
+                    { title: "Extracción IA", desc: "Identifica automáticamente importes, fechas y nombres de empresas." },
+                    { title: "Gestión de Datos", desc: "Guarda registros históricos en MySQL y Excel para contabilidad." }
+                ]
+            }
         },
         contact: {
             title: "Contáctame",
@@ -65,6 +85,26 @@ export const translations = {
             subtitle: "Here are some of my recent works showcasing my skills.",
             viewDemo: "Live Demo",
             viewCode: "Code",
+            viewDetails: "View Details",
+            n8nProject: {
+                title: "AI Ticket Analyzer with n8n",
+                shortDesc: "Smart automation to process tickets, extract data with AI, and organize finances.",
+                fullDesc: "Fully automated system deployed in production with Docker and SSL on VPS. The workflow processes ticket images, uses AI to extract key data (price, VAT, supplier), and stores everything in MySQL and Excel. Includes automatic full system backups.",
+                workflow: [
+                    "Upload ticket/invoice image",
+                    "AI Analysis (Vision) for data extraction",
+                    "Storage in MySQL database (Docker)",
+                    "Excel/Google Sheets generation and update",
+                    "Automatic classification in Google Drive by date",
+                    "Duplicate detection and error notification"
+                ],
+                features: [
+                    { title: "VPS Infrastructure", desc: "Deployed on VPS with Docker and Let's Encrypt SSL." },
+                    { title: "Security & Backups", desc: "Automatic SSL certificates and complete system backups (.tar.gz)." },
+                    { title: "AI Extraction", desc: "Automatically identifies amounts, dates, and company names." },
+                    { title: "Data Management", desc: "Keeps historical records in MySQL and Excel for accounting." }
+                ]
+            }
         },
         contact: {
             title: "Get In Touch",
