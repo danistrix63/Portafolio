@@ -39,7 +39,10 @@ export const translations = {
                     { title: "Seguridad y Backups", desc: "Certificados SSL automáticos y copias de seguridad completas (.tar.gz)." },
                     { title: "Extracción IA", desc: "Identifica automáticamente importes, fechas y nombres de empresas." },
                     { title: "Gestión de Datos", desc: "Guarda registros históricos en MySQL y Excel para contabilidad." }
-                ]
+                ],
+                demoLink: "https://github.com/danistrix63/n8n_tikets/blob/main/DEMO.md",
+                technicalDocLabel: "Ver Guía Técnica",
+                screenshot: "/src/assets/n8n-workflow.png"
             }
         },
         contact: {
@@ -103,7 +106,10 @@ export const translations = {
                     { title: "Security & Backups", desc: "Automatic SSL certificates and complete system backups (.tar.gz)." },
                     { title: "AI Extraction", desc: "Automatically identifies amounts, dates, and company names." },
                     { title: "Data Management", desc: "Keeps historical records in MySQL and Excel for accounting." }
-                ]
+                ],
+                demoLink: "https://github.com/danistrix63/n8n_tikets/blob/main/DEMO.md",
+                technicalDocLabel: "View Technical Guide",
+                screenshot: "/src/assets/n8n-workflow.png"
             }
         },
         contact: {

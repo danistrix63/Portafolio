@@ -45,6 +45,12 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 </div>
 
                 <div className="modal-body">
+                    {project.screenshot && (
+                        <div className="modal-section modal-screenshot-section">
+                            <img src={project.screenshot} alt={project.title} className="modal-screenshot" />
+                        </div>
+                    )}
+
                     <div className="modal-section">
                         <p className="project-description-full">{project.fullDescription}</p>
                     </div>
@@ -79,6 +85,11 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 </div>
 
                 <div className="modal-footer">
+                    {project.demoLink && (
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                            <ExternalLink size={18} /> {project.technicalDocLabel || 'Technical Guide'}
+                        </a>
+                    )}
                     {project.repoLink && (
                         <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn-primary">
                             <Github size={18} /> GitHub Repo
