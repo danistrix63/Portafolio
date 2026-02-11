@@ -2,14 +2,31 @@
     background-color: var(--color-bg);
 }
 
+.projects-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.projects-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects-header p {
+    color: var(--color-text-muted);
+}
+
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 2rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 
 .project-card {
+    width: 100%;
+    max-width: 380px;
     background-color: var(--color-surface);
     border-radius: var(--radius);
     overflow: hidden;

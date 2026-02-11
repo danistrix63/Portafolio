@@ -54,6 +54,7 @@ export const translations = {
             message: "Mensaje",
             send: "Enviar Mensaje",
             success: "¡Gracias por contactarme! Te responderé pronto.",
+            builtWithTitle: "Tecnologías utilizadas",
         },
         chatbot: {
             title: "Dani Asistente",
@@ -122,6 +123,7 @@ export const translations = {
             message: "Message",
             send: "Send Message",
             success: "Thanks for getting in touch! I will get back to you soon.",
+            builtWithTitle: "Built with",
         },
         chatbot: {
             title: "Dani Assistant",

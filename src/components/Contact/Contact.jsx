@@ -67,6 +67,17 @@ const Contact = () => {
                     <a href="mailto:ddctrabajocontacto@gmail.com" className="social-icon"><Mail size={24} /></a>
                 </div>
 
+                <div className="footer-tech-container">
+                    <span className="footer-tech-title">{t.contact.builtWithTitle}</span>
+                    <div className="footer-tech">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React/JSX" title="React/JSX" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite" title="Vite" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" />
+                    </div>
+                </div>
                 <p className="footer-text">
                     © {new Date().getFullYear()} Daniel Dans Cots. Todos los derechos reservados.
                 </p>
