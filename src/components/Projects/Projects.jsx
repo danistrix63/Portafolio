@@ -27,9 +27,10 @@ const Projects = () => {
             workflow: t.projects.n8nProject.workflow,
             features: t.projects.n8nProject.features,
             tech: ["n8n", "Docker", "VPS", "MySQL", "OpenAI"],
-            image: null, // Custom image path can be added here
+            image: t.projects.n8nProject.screenshot,
             icon: "Receipt",
-            demoLink: null,
+            demoLink: t.projects.n8nProject.demoLink,
+            technicalDocLabel: t.projects.n8nProject.technicalDocLabel,
             repoLink: "https://github.com/danistrix63/n8n_tikets"
         },
         {
