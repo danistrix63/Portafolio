@@ -6,7 +6,6 @@ Este es un portafolio web moderno construido con **React** y **Vite**, diseñado
 
 -   **Diseño Moderno**: Interfaz limpia con animaciones suaves y diseño responsive.
 -   **Multi-idioma**: Cambio instantáneo entre Español e Inglés.
--   **Chatbot**: Asistente virtual para responder preguntas frecuentes.
 -   **Secciones**: Inicio, Sobre Mí, Proyectos, Contacto.
 -   **Tecnologías**: React, Vite, CSS Modules, Lucide React.
 
